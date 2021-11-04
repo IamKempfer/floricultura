@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/2608993.png">
+</head>
+<body>
+    <section class="ctt-banner"></section>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="secao1.html">Home</a></li>
+                <li><a href="secao2.html">Festival</a></li>
+                <li><a href="secao3.html">Flores</a></li>
+                <li><a href="secao4.html">Contato</a></li>
+                <li><a class="main-button" href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="box">
+        <form action="">             
+                <br>
+                <div class="input-box">
+                    
+                    <input type="text" name="nome" id="nome" class="input-user"  required>
+                    <label for="nome"  class="label-input">Seu nome</label>                    
+                </div>
+                <br><br>
+                <div class="input-box">
+                    
+                    <input type="email" name="email" id="email" class="input-user"  required> 
+                    <label for="email"  class="label-input">Seu email</label>                   
+                </div>
+                <br><br>
+                <div class="input-box">
+                    
+                    <input type="tel" name="telefone" id="telefone" class="input-user"   pattern="\([9-0]{2}\)[\s][0-9]{5}-[0-9]{4}" required> 
+                    <label for="telefone"  class="label-input">Seu telefone</label>                   
+                </div>
+                <br><br>
+                <div class="input-box">
+                    <label for="mensagem" class="label-input"></label>
+                    <textarea class="input-user" name="msg" id="msg" cols="50" rows="10" name="msg" placeholder="Escreva Aqui"></textarea>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <br>
+                <br>
+           
+        </form>
+    </section>
+
+    <section class="right">
+        <h1>Contate-nos!</h1>
+        <br>
+        <p>Envie sua solicitação de contato pelo formulário ao lado!</p>
+
+    </section>
+
+    <footer class=lg-footer2>
+        <span>&copy; Victor Kempfer</span>
+    </footer>
+</body>
+</html>
